@@ -1,0 +1,20 @@
+#! /usr/bin/env sh
+
+# Install Homebrew
+command -v brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install stow and link dotfiles
+command -v stow || brew install stow
+stow --verbose --ignore=\.DS_Store --target ~ asdf
+stow --verbose --ignore=\.DS_Store --target ~ macos
+stow --verbose --ignore=\.DS_Store --target ~ vim
+stow --verbose --ignore=\.DS_Store --target ~ zsh
+
+# Install all other applications through Homebrew
+brew bundle --global
+
+# Update applications from app store
+mas upgrade
+
+# Configs
+defaults write com.apple.finder AppleShowAllFiles YES
