@@ -1,0 +1,18 @@
+# Homebrew
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+
+# VS Code
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+
+# Jetbrains Toolbox
+export PATH="$HOME/.toolbox/:$PATH"
+
+# Sublime Merge
+export PATH="$HOME/.sublime/:$PATH"
+
+# Postgres
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+# helm
+export PATH="/opt/homebrew/opt/helm@2/bin:$PATH"
