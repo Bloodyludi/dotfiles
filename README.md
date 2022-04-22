@@ -40,4 +40,4 @@ Clone this repo into `~/.dotfiles` :
 
 Navigate to `~/.dotfiles` and run: 
 
-`setup-macos`
+`./setup`
