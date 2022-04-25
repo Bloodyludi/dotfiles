@@ -1,2 +1,12 @@
 # thefuck
 eval $(thefuck --alias)
+
+# lunarVim
+alias vi='lvim'
+alias vim='lvim'
+alias nvim='lvim'
+
+alias tree='tree -aI .git'
+alias git-graph='git log --graph --oneline'
+alias grep='grep --color=auto'
+alias rgrep='rgrep --color=auto'
