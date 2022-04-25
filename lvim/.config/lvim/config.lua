@@ -65,15 +65,19 @@ lvim.builtin.nvimtree.show_icons.git = 0
 lvim.builtin.treesitter.ensure_installed = {
   "bash",
   "c",
+  "dockerfile",
+  "go",
+  "hcl",
   "javascript",
   "json",
   "lua",
+  "make",
   "python",
   "typescript",
   "tsx",
   "css",
+  "ruby",
   "rust",
-  "java",
   "yaml",
 }
 
