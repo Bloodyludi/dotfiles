@@ -11,8 +11,12 @@ brew "readline"
 brew "asdf"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # GNU Pretty Good Privacy (PGP) package

@@ -39,6 +39,9 @@ if ! command -v stow >/dev/null 2>&1; then
   bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh) -y
 fi
 
+echo "Running fzf install script"
+$(brew --prefix)/opt/fzf/install
+
 if ! test -e "${HOME}/.iterm2_shell_integration.zsh"; then
   echo "Installing iTerm2 shell integration..."
   curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | /bin/bash
