@@ -4,3 +4,4 @@ nodejs 17.8.0
 golang 1.18
 yarn 1.22.18
 rust 1.60.0
+postgres 14.2
