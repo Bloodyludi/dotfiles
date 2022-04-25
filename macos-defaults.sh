@@ -19,3 +19,6 @@ defaults write com.apple.dock wvous-tl-corner -int 0
 defaults write com.apple.dock wvous-tr-corner -int 0
 defaults write com.apple.dock wvous-bl-corner -int 0
 defaults write com.apple.dock wvous-br-corner -int 0
+
+defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add \
+    '{LSHandlerContentType=public.plain-text;LSHandlerRoleAll=com.jetbrains.intellij;}'

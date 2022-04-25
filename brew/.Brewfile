@@ -1,4 +1,3 @@
-tap "codeclimate/formulae"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -24,14 +23,14 @@ brew "helm@2"
 brew "icu4c"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Network authentication protocol
-brew "krb5"
-# Postgres C API library
-brew "libpq"
 # NaCl networking and cryptography library
 brew "libsodium"
 # Mac App Store command-line interface
 brew "mas"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Intuitive find & replace CLI
 brew "sd"
 # Command-line interface for Spotify on a Mac
@@ -46,8 +45,6 @@ brew "the_silver_searcher"
 brew "thefuck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Code Climate CLI
-brew "codeclimate/formulae/codeclimate"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # App to build and share containerized applications and microservices
@@ -76,8 +73,6 @@ cask "sublime-merge"
 cask "the-unarchiver"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
-# Open-source code editor
-cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 mas "Keynote", id: 409183694

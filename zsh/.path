@@ -1,18 +1,12 @@
-# .dotfiles/bin
+# .dotfiles
 export PATH="$HOME/.dotfiles/bin:$PATH"
-
-# lunarVim
-export PATH="$HOME/.local/bin:$PATH"
 
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
-# VS Code
-export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
-
-# Postgres
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+# lunarVim
+export PATH="$HOME/.local/bin:$PATH"
 
 # helm
 export PATH="/opt/homebrew/opt/helm@2/bin:$PATH"
