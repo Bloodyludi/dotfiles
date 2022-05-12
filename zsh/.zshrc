@@ -11,5 +11,8 @@ if [[ -f "$HOME/.secrets" ]]; then
   source "$HOME/.secrets"
 fi
 
+# Launch neofetch when terminal opens
+neofetch
+
 # Fig post block. Keep at the bottom of this file.
 . "$HOME/.fig/shell/zshrc.post.zsh"
