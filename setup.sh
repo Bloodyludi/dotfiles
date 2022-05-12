@@ -47,4 +47,7 @@ if ! test -e "${HOME}/.iterm2_shell_integration.zsh"; then
   curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | /bin/bash
 fi
 
+echo "Disabling fig telemetry..."
+fig settings telemetry.disabled true
+
 ./macos-defaults.sh

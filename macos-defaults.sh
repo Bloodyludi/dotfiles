@@ -22,3 +22,6 @@ defaults write com.apple.dock wvous-br-corner -int 0
 
 defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add \
     '{LSHandlerContentType=public.plain-text;LSHandlerRoleAll=com.jetbrains.intellij;}'
+
+# More here:
+# https://github.com/driesvints/dotfiles/blob/main/.macos

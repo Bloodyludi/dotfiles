@@ -27,6 +27,8 @@ brew "helm@2"
 brew "icu4c"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Postgres C API library
+brew "libpq"
 # NaCl networking and cryptography library
 brew "libsodium"
 # Mac App Store command-line interface
@@ -53,6 +55,8 @@ brew "tree"
 cask "1password"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Reimagine your terminal
+cask "fig"
 # Web browser
 cask "firefox"
 # Terminal emulator as alternative to Apple's Terminal app
