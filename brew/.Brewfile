@@ -13,6 +13,8 @@ brew "asdf"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Yet another cross-platform graphical process/system monitor
+brew "bottom"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
 # Command-line fuzzy finder written in Go
@@ -27,6 +29,8 @@ brew "helm@2"
 brew "icu4c"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Generic command-line non-JVM Apache Kafka producer and consumer
+brew "kcat"
 # Postgres C API library
 brew "libpq"
 # NaCl networking and cryptography library
