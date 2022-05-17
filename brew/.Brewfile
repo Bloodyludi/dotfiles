@@ -35,6 +35,8 @@ brew "kcat"
 brew "libpq"
 # NaCl networking and cryptography library
 brew "libsodium"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
 # Fast, highly customisable system info script
