@@ -15,6 +15,8 @@ brew "awscli"
 brew "bat"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
 # Command-line fuzzy finder written in Go
@@ -31,6 +33,8 @@ brew "icu4c"
 brew "jq"
 # Generic command-line non-JVM Apache Kafka producer and consumer
 brew "kcat"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Postgres C API library
 brew "libpq"
 # NaCl networking and cryptography library

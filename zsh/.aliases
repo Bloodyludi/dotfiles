@@ -13,6 +13,7 @@ alias top='btm'
 
 alias tree='tree -aI .git'
 alias git-graph='git log --graph --oneline'
+alias lg='lazygit'
 
 alias grep='grep --color=auto'
 alias rgrep='rgrep --color=auto'
