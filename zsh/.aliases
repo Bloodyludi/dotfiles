@@ -1,6 +1,8 @@
 # thefuck
 eval $(thefuck --alias)
 
+alias cd='z'
+
 alias ls='lsd'
 alias df='duf'
 

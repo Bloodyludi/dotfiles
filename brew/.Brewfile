@@ -15,6 +15,8 @@ brew "awscli"
 brew "bat"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
 # Select default apps for documents and URL schemes on macOS
@@ -61,6 +63,8 @@ brew "the_silver_searcher"
 brew "thefuck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # App to build and share containerized applications and microservices
