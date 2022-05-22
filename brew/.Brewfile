@@ -77,6 +77,8 @@ cask "firefox"
 cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
+# Finds, learns and remembers keyboard shortcuts
+cask "keycue"
 # Clipboard manager
 cask "maccy"
 # App to write, plan, collaborate, and get organized
