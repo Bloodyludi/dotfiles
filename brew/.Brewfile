@@ -85,6 +85,8 @@ cask "jetbrains-toolbox"
 cask "keycue"
 # Clipboard manager
 cask "maccy"
+# Simple and elegant markdown editor
+cask "mark-text"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Collaboration platform for API development
