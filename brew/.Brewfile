@@ -91,14 +91,14 @@ cask "mark-text"
 cask "notion"
 # Collaboration platform for API development
 cask "postman"
+# Modern and intuitive HTTP Debugging Proxy app
+cask "proxyman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Git client
-cask "sublime-merge"
 # Unpacks archive files
 cask "the-unarchiver"
 # Free and open-source OpenVPN client
