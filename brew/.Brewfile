@@ -93,6 +93,8 @@ brew "altinity/clickhouse/clickhouse@22.6", link: true
 brew "fluxcd/tap/flux"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line helper for the 1Password password manager
+cask "1password-cli"
 # Tools for building Android applications
 cask "android-studio"
 # App to build and share containerized applications and microservices
