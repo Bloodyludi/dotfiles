@@ -1,3 +1,5 @@
+tap "altinity/clickhouse"
+tap "fluxcd/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -9,6 +11,10 @@ brew "libyaml"
 brew "readline"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# Use AWS IAM credentials to authenticate to Kubernetes
+brew "aws-iam-authenticator"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -27,16 +33,24 @@ brew "duti"
 brew "fzf"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
+# Distributed revision control system
+brew "git"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Kubernetes package manager
+brew "helm"
 # Kubernetes package manager
 brew "helm@2"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 # Generic command-line non-JVM Apache Kafka producer and consumer
 brew "kcat"
+# Kubernetes command-line interface
+brew "kubernetes-cli@1.22"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Postgres C API library
@@ -51,6 +65,8 @@ brew "mas"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Intuitive find & replace CLI
 brew "sd"
 # Command-line interface for Spotify on a Mac
@@ -67,10 +83,18 @@ brew "thefuck"
 brew "tree"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Process YAML documents from the CLI
+brew "yq"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Free analytics DBMS for big data with SQL interface
+brew "altinity/clickhouse/clickhouse@22.6", link: true
+# Flux CLI
+brew "fluxcd/tap/flux"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Tools for building Android applications
+cask "android-studio"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Reimagine your terminal
@@ -108,4 +132,3 @@ cask "vlc"
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Xcode", id: 497799835

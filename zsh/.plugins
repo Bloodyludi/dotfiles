@@ -34,4 +34,8 @@ antigen apply
 # zoxide
 eval "$(zoxide init zsh)"
 
+# flux
+command -v flux >/dev/null && . <(flux completion zsh)
+
+# iterm2
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true

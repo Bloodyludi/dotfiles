@@ -25,3 +25,10 @@ alias github='open $(git config remote.origin.url | sed "s/git@\(.*\):\(.*\).git
 
 # Open MarkText for note taking
 alias notes='open -a MarkText'
+
+# Get OTP for AWS from 1PW
+alias otp='op item get AWS --otp | pbcopy'
+
+# K8S shorthands
+alias k='kubectl'
+alias ctx='kubectl config use-context'

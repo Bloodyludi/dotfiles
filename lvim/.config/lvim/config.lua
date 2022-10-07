@@ -10,7 +10,7 @@ an executable
 
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = true
+lvim.format_on_save = false
 lvim.colorscheme = "onedarker"
 
 vim.opt.relativenumber = true
@@ -23,6 +23,7 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 -- lvim.keys.normal_mode["<C-Up>"] = false
 -- edit a default keymapping
 lvim.keys.normal_mode["<C-q>"] = ":q<cr>"
+lvim.keys.normal_mode["<C-F>"] = ":Telescope live_grep<cr>"
 
 -- Navigation with alt and cmd in insert mode
 lvim.keys.insert_mode["<Esc>b"] = "<C-o>b"
@@ -171,7 +172,7 @@ lvim.plugins = {
     }
   },
   {
-    "towolf/vim-helm",
+    "towolf/vim-helm"
   }
   --     {"folke/tokyonight.nvim"},
   --     {
