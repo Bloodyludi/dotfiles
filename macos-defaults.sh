@@ -28,3 +28,4 @@ defaults write -g KeyRepeat -int 2
 
 # More here:
 # https://github.com/driesvints/dotfiles/blob/main/.macos
+# https://git.herrbischoff.com/awesome-macos-command-line/about/

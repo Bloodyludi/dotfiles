@@ -4,6 +4,10 @@
 <dict>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>BracketedPasteMode</key>
+	<false/>
+	<key>ConvertDosNewlines</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>BDFF0B1D-5D2E-490D-954B-0960C69B63A2</string>
 	<key>DimBackgroundWindows</key>
@@ -17,6 +21,8 @@
 	<key>EnableDivisionView</key>
 	<true/>
 	<key>EnableProxyIcon</key>
+	<false/>
+	<key>EscapeShellCharsWithBackslash</key>
 	<false/>
 	<key>FlashTabBarInFullscreen</key>
 	<false/>
@@ -1400,6 +1406,16 @@
 	<false/>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
+	<key>PasteSpecialChunkDelay</key>
+	<real>0.01</real>
+	<key>PasteSpecialChunkSize</key>
+	<integer>1024</integer>
+	<key>PasteSpecialRegex</key>
+	<string></string>
+	<key>PasteSpecialSubstitution</key>
+	<string></string>
+	<key>PasteSpecialUseRegexSubstitution</key>
+	<false/>
 	<key>PerPaneBackgroundImage</key>
 	<true/>
 	<key>PointerActions</key>
@@ -1444,6 +1460,8 @@
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
 	<key>SeparateStatusBarsPerPane</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
